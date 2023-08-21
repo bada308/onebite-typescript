@@ -13,4 +13,4 @@ let config:{
     apiKey: "MY API KEY",
 }
 
-config.apiKey = 'hacked'; // 에러 발생 (readonly)
+// config.apiKey = 'hacked'; // 에러 발생 (readonly)
