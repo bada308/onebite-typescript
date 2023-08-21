@@ -10,14 +10,7 @@ type User = {
 };
 
 // 중복 발생
-let user: {
-    id: number;
-    name: string;
-    nickname: string;
-    birth: string;
-    bio: string;
-    location: string;
-} = {
+let user: User = {
     id: 1,
     name: "강바다",
     nickname: "bada",
