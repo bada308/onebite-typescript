@@ -45,7 +45,7 @@ let countryCodes:CountryCode = {
 // 인덱스 시그니처의 규칙을 위반하면 에러 발생
 type CountryNumberCodes = {
     [key:string]:number;
-    Korea: string;
+    Korea: number; // 에러 발생 (인덱스 시그니처 규칙을 위반)
 }
 
 let countryNumberAndStringCodes:CountryNumberCodes = {

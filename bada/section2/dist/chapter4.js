@@ -16,4 +16,15 @@ let user2 = {
     bio: "안녕하세요. 저는 강아무개입니다.",
     location: "서울특별시 강남구"
 };
+// key: string, value: string
+let countryCodes = {
+    Korea: 'ko',
+    UnitedState: 'us',
+    UnitedKingdom: 'uk',
+};
+let countryNumberAndStringCodes = {
+    Korea: 82,
+    UnitedState: 1,
+    UnitedKingdom: 44,
+};
 export {};
