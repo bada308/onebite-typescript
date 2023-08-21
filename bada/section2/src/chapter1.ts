@@ -27,7 +27,5 @@ let undefined1:undefined = undefined;
 // 리터럴 타입
 // 리터럴 -> 값
 let numA: 10 = 10;
-numA = 20; // error
 
 let strA: 'hello' = 'hello';
-let boolA: true = false; // error
