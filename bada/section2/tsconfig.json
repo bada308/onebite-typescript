@@ -2,9 +2,12 @@
     "compilerOptions": {
         "outDir": "./dist/",
         "module": "ESNext",
-        "strict": false,
         "moduleDetection": "force",
         "target": "ESNext",
+
+        // strict
+        "strict": true,
+        // "strictNullChecks": false, // 엄격한 null 검사
     },
     "ts-node": {
         "esm": true
