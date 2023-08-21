@@ -31,5 +31,5 @@ function func4(): never {
 }
 
 let b: never;
-b = undefined; // 에러 발생 (never 타입에는 undefined 타입을 할당할 수 없음)
-b = null; // 에러 발생 (never 타입에는 null 타입을 할당할 수 없음)
+// b = undefined; // 에러 발생 (never 타입에는 undefined 타입을 할당할 수 없음)
+// b = null; // 에러 발생 (never 타입에는 null 타입을 할당할 수 없음)
