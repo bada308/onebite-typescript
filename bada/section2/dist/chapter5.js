@@ -6,17 +6,25 @@ var Role;
     Role[Role["USER"] = 1] = "USER";
     Role[Role["GUEST"] = 2] = "GUEST"; // 2
 })(Role || (Role = {}));
+var Language;
+(function (Language) {
+    Language["korean"] = "ko";
+    Language["english"] = "en";
+})(Language || (Language = {}));
 const user1 = {
     name: 'john',
-    role: Role.ADMIN // 0 <- 관리자
+    role: Role.ADMIN,
+    language: Language.korean,
 };
 const user2 = {
     name: 'mary',
-    role: Role.USER // 1 <- 일반 유저
+    role: Role.USER,
+    language: Language.english,
 };
 const user3 = {
     name: 'steve',
-    role: Role.GUEST // 2 <- 게스트
+    role: Role.GUEST,
+    language: Language.english,
 };
 console.log(user1, user2, user3);
 export {};
